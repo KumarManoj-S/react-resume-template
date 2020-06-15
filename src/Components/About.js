@@ -25,7 +25,11 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p>
+               {bio}
+               <div>Admin at <a style={{color: '#727272'}} href="https://instagram.com/thecoder.js?igshid=hbllxu35wsno" target="_blank"> @thecoder.js <i className="fa fa-instagram"></i></a></div>
+            </p>
+            
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
@@ -35,7 +39,7 @@ class About extends Component {
 						         {city} {state}, {zip}
                    </span><br />
                      <span>{email}</span><br />
-                     <span>Admin at <a style={{color: '#727272'}} href="https://instagram.com/thecoder.js?igshid=hbllxu35wsno"> @thecoder.js <i className="fa fa-instagram"></i></a></span>
+                     
 					   </p>
                </div>
                <div className="columns download">

@@ -3,7 +3,7 @@
     "name": "Manoj Kumar",
     "occupation": "Full stack developer",
     "description": ", currently working with many brilliant minds at Sahaj Software solution. I'm an open source enthusiast. I like to explore and work in different technologies",
-    "image": "profilepic.jpg",
+    "image": "profilepic.jpeg",
     "bio": "I'm a person who likes to explore and work in different technologies. I have worked on the technologies like Rails, ReactJs, NodeJs, Python, etc. Being an open source enthusiast, I contribute to open source often. And I'm a kind of guy who says hi to dogs. I solve competitive programming and watch movies in my free time and I'm a big fan of Marvel.",
     "contactmessage": "",
     "email": "kumarmanoj1158@gmail.com",
@@ -39,7 +39,7 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/KumarManoj-Sx",
+        "url": "https://github.com/KumarManoj-S",
         "className": "fa fa-github"
       }
     ]
@@ -49,16 +49,16 @@
       {
         "school": "Thiagarajar College of Engineering",
         "degree": "Bachelors of Technology",
-        "graduated": "April 2018",
-        "description": "A place where I discovered my passion for Software development. The best thing that happened to me are my friends. We became a family already."
+        "graduated": "July 2014 - April 2018",
+        "description": "A place where I discovered my passion for Software development. The best thing that happened to me are my friends in college. We became a family already."
       }
     ],
     "work": [
       {
         "company": "Sahaj Software Solutions",
         "title": "Solution Consultant",
-        "years": "June 2018 - Present",
-        "description": "A place which is giving me many opportunity to work on different technologies. "
+        "years": "January 2018 - Present",
+        "description": "A friendly environment which is giving me many opportunities to work on challenging and interesting problems with many brilliant minds."
       }
     ],
     "skills": [
@@ -79,12 +79,24 @@
         "level": "75%"
       },
       {
+        "name": "NodeJs",
+        "level": "70%"
+      },
+      {
         "name": "Postgres",
         "level": "70%"
       },
       {
         "name": "MongoDB",
         "level": "50%"
+      },
+      {
+        "name": "Data structure",
+        "level": "75%"
+      },
+      {
+        "name": "Algorithm",
+        "level": "75%"
       }
     ]
   },
@@ -92,35 +104,35 @@
     "projects": [
       {
         "title": "Chat Forum",
-        "category": "A chat application",
+        "description": "Chat Forum is a chatting application developed with rich user interface. It uses core socket programming to communicate with other systems. MySQL is used to store user accounts, chat messages, logs, etc. ",
         "image": "java.jpg"
       },
       {
         "title": "Mail Stream",
-        "category": "Android application for sending emails to bulk list",
+        "description": "MailStream is an mobile based digital marketing application which enables you to upload a csv file which contains a list of email ids. It transfers a particular mail to all the recipients contained in the csv file.",
         "image": "fury-fighting-gear.jpg"
       },
       {
         "title": "central-logger",
-        "category": "A tiny utility for remote logging",
+        "description": "Central Logger is a tiny library for streaming the logs and information about the application to the remote server. It has used 'fire and forget' protocol to stream the logs.",
         "image": "original-thai-food.jpg",
         "url": "https://www.npmjs.com/package/central-logger"
       },
       {
         "title": "construct-react",
-        "category": "Construct React is a boilerplate for web development built on top of Express and React.",
+        "description": "Construct React is a boilerplate for web development built on top of Express and React, containing modern web development tools such as Webpack and Babel. It has been bootstraped with plenty of features like server side rendering, redux setup, axios, code splitting, etc.",
         "image": "resume-website.jpg",
         "url": "https://www.npmjs.com/package/construct-react"
       },
       {
         "title": "Disaster Management",
-        "category": "Disaster management application",
+        "description": "It is a disaster management application which bridge the gap between the volunteers and the donors. It has been built using Vuejs for frontend and Python flask for backend.",
         "image": "smirkspace.jpg",
         "url": "https://disaster-management-app.onrender.com/"
       },
       {
         "title": "contractpy",
-        "category": "contractpy is a tiny library for validating data against a contract.",
+        "description": "contractpy is a python tiny library for validating data against a contract.",
         "image": "smirkspace.jpg",
         "url": "https://pypi.org/project/contractpy/"
       }
