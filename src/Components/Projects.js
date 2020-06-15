@@ -5,6 +5,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
@@ -24,41 +25,45 @@ const ProjectsExpansionPanel = (props) => {
 
   return (
     <div className={classes.root}>
-      {
-        projects.map(project => (
-          <ExpansionPanel>
-            <ExpansionPanelSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls={project.title}
-              id={project.title}
-            >
-              <Typography className={classes.heading}>{project.title}</Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <Grid container>
-                <Grid item xs={12}>
-                  <Typography variant="h6">
-                    {project.description}
-                  </Typography>
+      <Box p={5}>
+        {
+          projects.map(project => (
+            <ExpansionPanel>
+              <ExpansionPanelSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls={project.title}
+                id={project.title}
+              >
+                <Typography className={classes.heading}>{project.title}</Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Grid container>
+                  <Grid item xs={12}>
+                    <Typography variant="h6">
+                      {project.description}
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    {
+                      project.url && (
+                        <Box mt={2}>
+                          <div>
+                            <a target="_blank" href={project.url}>
+                              <Typography color="primary" variant="h6">
+                                Click here for more details
+                              </Typography>
+                            </a>
+                          </div>
+                        </Box>
+                      )
+                    }
+                  </Grid>
                 </Grid>
-                <Grid item xs={12}>
-                  {
-                    project.url && (
-                      <div>
-                        <a target="_blank" href={project.url}>
-                          <Typography color="primary" variant="h6">
-                            Click here for more details
-                          </Typography>
-                        </a>
-                      </div>
-                    )
-                  }
-                </Grid>
-              </Grid>
-            </ExpansionPanelDetails>
-          </ExpansionPanel>
-        ))
-      }
+              </ExpansionPanelDetails>
+            </ExpansionPanel>
+          ))
+        }
+      </Box>
     </div>
   );
 }
