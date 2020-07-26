@@ -11,12 +11,14 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
+    fontFamily: `'opensans-bold', sans-serif`
   },
   heading: {
-    fontSize: theme.typography.pxToRem(20),
+    fontFamily: `'opensans-bold', sans-serif`,
+    fontSize: theme.typography.pxToRem(27),
     fontWeight: theme.typography.fontWeightBold,
     color: '#333333'
-  },
+  }
 }));
 
 const ProjectsExpansionPanel = (props) => {
@@ -34,7 +36,13 @@ const ProjectsExpansionPanel = (props) => {
                 aria-controls={project.title}
                 id={project.title}
               >
-                <Typography className={classes.heading}>{project.title}</Typography>
+                <div>
+                  <Typography className={classes.heading}>{project.title}</Typography>
+                  <Typography color="textSecondary" variant="body1" component="p">
+                    {project.technologies}
+                  </Typography>
+                </div>
+
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
                 <Grid container>

@@ -3,7 +3,7 @@
     "name": "Manoj Kumar",
     "occupation": "Full stack developer",
     "description": ", currently working with many brilliant minds at Sahaj Software solution. I'm an open source enthusiast. I like to explore and work in different technologies",
-    "image": "profilepic.jpeg",
+    "image": "profilepic2.jpeg",
     "bio": "I'm a person who likes to explore and work in different technologies. I have worked on the technologies like Rails, ReactJs, NodeJs, Python, etc. Being an open source enthusiast, I contribute to open source often. And I'm a kind of guy who says hi to dogs. I solve competitive programming and watch movies in my free time and I'm a big fan of Marvel.",
     "contactmessage": "",
     "email": "kumarmanoj1158@gmail.com",
@@ -14,8 +14,8 @@
       "state": "Tamil Nadu",
       "zip": "600041"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "https://manojkumars.in",
+    "resumedownload": "/resume.pdf",
     "social": [
       {
         "name": "facebook",
@@ -105,36 +105,49 @@
       {
         "title": "Chat Forum",
         "description": "Chat Forum is a chatting application developed with rich user interface. It uses core socket programming to communicate with other systems. MySQL is used to store user accounts, chat messages, logs, etc. ",
-        "image": "java.jpg"
+        "image": "java.jpg",
+        "technologies": "JavaFx"
       },
       {
         "title": "Mail Stream",
         "description": "MailStream is an mobile based digital marketing application which enables you to upload a csv file which contains a list of email ids. It transfers a particular mail to all the recipients contained in the csv file.",
-        "image": "fury-fighting-gear.jpg"
+        "image": "fury-fighting-gear.jpg",
+        "technologies": "Android"
       },
       {
         "title": "central-logger",
         "description": "Central Logger is a tiny library for streaming the logs and information about the application to the remote server. It has used 'fire and forget' protocol to stream the logs.",
         "image": "original-thai-food.jpg",
-        "url": "https://www.npmjs.com/package/central-logger"
+        "url": "https://www.npmjs.com/package/central-logger",
+        "technologies": "NodeJs"
       },
       {
         "title": "construct-react",
         "description": "Construct React is a boilerplate for web development built on top of Express and React, containing modern web development tools such as Webpack and Babel. It has been bootstraped with plenty of features like server side rendering, redux setup, axios, code splitting, etc.",
         "image": "resume-website.jpg",
-        "url": "https://www.npmjs.com/package/construct-react"
+        "url": "https://www.npmjs.com/package/construct-react",
+        "technologies": "ReactJs  |  ExpressJs  |  Axios  |  Material UI  |  SSR"
       },
       {
         "title": "Disaster Management",
         "description": "It is a disaster management application which bridge the gap between the volunteers and the donors. It has been built using Vuejs for frontend and Python flask for backend.",
         "image": "smirkspace.jpg",
-        "url": "https://disaster-management-app.onrender.com/"
+        "url": "https://disaster-management-app.onrender.com/",
+        "technologies": "VueJs  |  Python  |  Flask  |  Mongo DB  |  Axios"
       },
       {
         "title": "contractpy",
         "description": "contractpy is a python tiny library for validating data against a contract.",
         "image": "smirkspace.jpg",
-        "url": "https://pypi.org/project/contractpy/"
+        "url": "https://pypi.org/project/contractpy/",
+        "technologies": "Python"
+      },
+      {
+        "title": "eazytasks",
+        "description": "eazytasks is a task management application with plenty of features like tasks categorization, tasks labelling, marking task status, tasks filtering, etc.",
+        "image": "smirkspace.jpg",
+        "url": "https://eazytasks.manojkumars.in/",
+        "technologies": "ReactJs  |  Material UI  |  NodeJs  |  ExpressJs  |  Mongo DB  |  Mongoose  |  Axios"
       }
     ]
   }
