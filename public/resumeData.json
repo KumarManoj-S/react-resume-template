@@ -4,7 +4,7 @@
     "occupation": "Full stack developer",
     "description": ", currently working with many brilliant minds at Sahaj Software solution. I'm an open source enthusiast. I like to explore and work in different technologies",
     "image": "profilepic2.jpeg",
-    "bio": "I'm a person who likes to explore and work in different technologies. I have worked on the technologies like Rails, ReactJs, NodeJs, Python, etc. Being an open source enthusiast, I contribute to open source often. And I'm a kind of guy who says hi to dogs. I solve competitive programming and watch movies in my free time and I'm a big fan of Marvel.",
+    "bio": "I'm a person who likes to explore and work in different technologies. I have worked on the technologies like ReactJs, NodeJs, Python, Java, etc. Being an open source enthusiast, I contribute to open source often. And I'm a kind of guy who says hi to dogs. I solve competitive programming and watch movies in my free time and I'm a big fan of Marvel.",
     "contactmessage": "",
     "email": "kumarmanoj1158@gmail.com",
     "phone": "",
@@ -50,7 +50,7 @@
         "school": "Thiagarajar College of Engineering",
         "degree": "Bachelors of Technology",
         "graduated": "July 2014 - April 2018",
-        "description": "A place where I discovered my passion for Software development. The best thing that happened to me are my friends in college. We became a family already."
+        "description": "A place where I discovered my passion for Software development. The best thing that happened to me are my friends in college, we became a family already."
       }
     ],
     "work": [
@@ -69,6 +69,10 @@
       {
         "name": "Python",
         "level": "90%"
+      },
+      {
+        "name": "Java",
+        "level": "80%"
       },
       {
         "name": "Javascript",
@@ -91,11 +95,7 @@
         "level": "50%"
       },
       {
-        "name": "Data structure",
-        "level": "75%"
-      },
-      {
-        "name": "Algorithm",
+        "name": "Data structure & Algorithm",
         "level": "75%"
       }
     ]
@@ -148,6 +148,13 @@
         "image": "smirkspace.jpg",
         "url": "https://eazytasks.manojkumars.in/",
         "technologies": "ReactJs  |  Material UI  |  NodeJs  |  ExpressJs  |  Mongo DB  |  Mongoose  |  Axios"
+      },
+      {
+        "title": "Athena cloudfront Integartion Terraform Module",
+        "description": "It's a tiny terraform module that enables the integration between athena query service and the CloudFront logs collected in S3.",
+        "image": "smirkspace.jpg",
+        "url": "https://registry.terraform.io/modules/KumarManoj-S/athena-cloudfront-logs-integration/aws/latest",
+        "technologies": "Terraform"
       }
     ]
   }
